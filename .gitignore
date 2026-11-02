@@ -1,0 +1,30 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Keep the example environment file if you have one
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+
+# Uploaded documents and personal data
+backend/data/papers/
+
+# Generated vector stores
+backend/data/vector_stores/
+
+# Application logs
+backend/logs/
+*.log
